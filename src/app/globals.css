@@ -73,4 +73,17 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .show {
+    @apply border border-black;
+  }
+
+  .def-width {
+    @apply max-w-4xl;
+  }
+
+  .place-center {
+    @apply flex items-center
+  }
+
 }
