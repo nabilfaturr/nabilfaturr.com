@@ -8,7 +8,7 @@ import Badges from "../Badges";
 const ProjectCard: React.FC = ({}) => {
   const projects = selectedProjects;
   return (
-    <div className="flex flex-col gap-4  h-[50vh] overflow-y-scroll">
+    <div className="flex flex-col gap-4  h-[60vh] overflow-y-scroll pb-20">
       {projects.map((project, idx) => (
         <div key={idx} className="project-card-container">
           <svg
@@ -30,8 +30,8 @@ const ProjectCard: React.FC = ({}) => {
                 y2="468.661"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#1A3B8D"></stop>
-                <stop offset="1" stop-color="#206E86"></stop>
+                <stop stopColor="#1A3B8D"></stop>
+                <stop offset="1" stopColor="#206E86"></stop>
               </linearGradient>
             </defs>
           </svg>

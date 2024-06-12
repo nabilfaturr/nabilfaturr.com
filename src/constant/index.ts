@@ -32,8 +32,8 @@ export const selectedProjects: TSelectedProject[] = [
   {
     title: "Noteworthy",
     siteUrl: "/propz",
-    liveUrl: "https://",
-    githubUrl: "https://",
+    liveUrl: "https://www.example.com",
+    githubUrl: "https://www.example.com",
     shortDescription: `A Next.js note-taking platform with complete dashboard, robust folder organization, auto save functionality, and
     rich typography`,
     techStack: [
@@ -49,8 +49,8 @@ export const selectedProjects: TSelectedProject[] = [
   {
     title: "Propz",
     siteUrl: "/propz",
-    liveUrl: "https://",
-    githubUrl: "https://",
+    liveUrl: "https://www.example.com",
+    githubUrl: "https://www.example.com",
     shortDescription: `A MERN stack application connecting property buyers and sellers. Features include form and image uploads,
     JWT/bcrypt/Google OAuth authentication, and a search filter.`,
     techStack: ["React.js", "TypeScript", "Tailwind", "MongoDB", "Firebase", "Express.js"],
@@ -59,8 +59,8 @@ export const selectedProjects: TSelectedProject[] = [
   {
     title: "Eventz",
     siteUrl: "/eventz",
-    liveUrl: "https://",
-    githubUrl: "https://",
+    liveUrl: "https://www.example.com",
+    githubUrl: "https://www.example.com",
     shortDescription: "Fullstack web for create online event",
     techStack: [
       "Next.js",

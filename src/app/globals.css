@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-  width: 14px;
+  width: 0px;
   background: inherit;
 }
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   border: 6px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
   border-radius: 9999px;
   background-color: #636161;
-}
+} */
 
 @layer base {
   :root {

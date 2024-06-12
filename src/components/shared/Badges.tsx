@@ -9,11 +9,11 @@ type BadgesProps = {
 const Badges: React.FC<BadgesProps> = ({ project, tools }) => {
   if (project) {
     return (
-      <div className="flex flex-wrap items-center gap-[5px] py-1">
+      <div className="flex flex-wrap items-center gap-1 py-1">
         {tools?.map((tool, idx) => (
           <p
             key={idx}
-            className="text-sm font-medium bg-indigo-950 px-3 py-1 border border-slate-700 rounded-full"
+            className="text-sm font-medium bg-indigo-950 px-3 py-[2px] border border-slate-700 rounded-full"
           >
             {tool}
           </p>

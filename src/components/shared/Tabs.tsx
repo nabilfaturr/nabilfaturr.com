@@ -7,7 +7,7 @@ type TabsProps = {};
 const Tabs: React.FC<TabsProps> = ({}) => {
   const [tabs, setTabs] = React.useState("project");
   return (
-    <div className="">
+    <div>
       <div className="flex bg-gray-900 text-center p-1 my-4 rounded gap-2 font-medium shadow-xl">
         <button
           onClick={() => {

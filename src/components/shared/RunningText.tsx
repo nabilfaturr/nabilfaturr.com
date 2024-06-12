@@ -15,7 +15,7 @@ const RunningText: React.FC = () => {
   }, []);
 
   return (
-    <p className="text-xl md:text-2xl font-medium text-slate-300">
+    <p className="text-lg sm:text-xl md:text-2xl font-medium text-slate-300">
       {`I'm Nabil, a fullstack developer passionate about creating `}
       <span className={`${runningText[currentIndex].color}`}>
         {runningText[currentIndex].text}
