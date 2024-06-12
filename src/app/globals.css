@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 14px;
+  background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 6px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #636161;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -67,9 +79,6 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground;
   }
@@ -83,7 +92,14 @@
   }
 
   .place-center {
-    @apply flex items-center
+    @apply flex items-center;
   }
 
+  .project-card-button {
+    @apply rounded-full p-[6px] bg-black border border-slate-700 h-8 w-8 hover:bg-white hover:bg-opacity-10;
+  }
+
+  .project-card-container {
+    @apply border p-5 border-slate-700 rounded space-y-6 bg-black/50 hover:border-slate-500;
+  }
 }

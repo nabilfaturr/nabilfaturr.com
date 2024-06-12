@@ -1,24 +1,23 @@
 import React from "react";
 import { navigationLinks } from "@/constant";
-import Link from "next/link";
-import MobileNav from "./MobileNav";
+import NextLink from "next/link";
+import Logo from "./Logo";
 
-const Navbar = () => {
+type NavbarProps = {};
+
+const Navbar: React.FC<NavbarProps> = ({}) => {
   return (
-    <nav className="hidden md:flex items-center gap-16">
-      {navigationLinks.map((link) => (
-        <ul key={link.name}>
-          <li>
-            <Link
-              key={link.name}
-              href={link.href}
-              className="px-3 py-2 text-sm text-gray-600 font-medium transition-colors"
-            >
+    <nav className="max-w-2xl md:px-0 px-3 mx-auto flex justify-between">
+      <Logo />
+      {/* <ul className="flex justify-between gap-16">
+        {navigationLinks.map((link) => (
+          <li key={link.name}>
+            <NextLink href={link.href} className="text-slate-200">
               {link.name}
-            </Link>
+            </NextLink>
           </li>
-        </ul>
-      ))}
+        ))}
+      </ul> */}
     </nav>
   );
 };

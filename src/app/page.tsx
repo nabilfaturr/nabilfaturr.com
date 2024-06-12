@@ -1,11 +1,12 @@
-import Header from "@/components/shared/Header";
-import Hero from "@/components/shared/Hero";
-import Image from "next/image";
+import Intro from "@/components/shared/Intro";
+import Tabs from "@/components/shared/Tabs";
+import { selectedProjects } from "@/constant";
 
 export default function Home() {
   return (
-    <section>
-      <Hero />
+    <section className="">
+      <Intro />
+      <Tabs />
     </section>
   );
 }
