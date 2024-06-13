@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import ProjectCard from "./Card/ProjectCard";
+import LocationCard from "./Card/LocationCard";
 
 type TabsProps = {};
 
@@ -43,7 +44,11 @@ const ProjectTab = () => {
 };
 
 const AboutTab = () => {
-  return <div>About tab</div>;
+  return (
+    <div>
+      <LocationCard />
+    </div>
+  );
 };
 
 export default Tabs;

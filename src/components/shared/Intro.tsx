@@ -3,6 +3,8 @@ import Badges from "./Badges";
 import Image from "next/image";
 import RunningText from "./RunningText";
 
+const textGradient = ``
+
 type IntroProps = {};
 
 const Intro: React.FC<IntroProps> = ({}) => {
